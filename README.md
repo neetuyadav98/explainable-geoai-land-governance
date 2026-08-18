@@ -104,31 +104,54 @@ Where data and time permit, the research will assess whether geospatial embeddin
 
 ```mermaid
 flowchart TD
-    A[Satellite Revisit: Sentinel-1/2, Landsat]
-    B[Cadastral / Land-Record Data Ingestion]
-    C[Preprocessing: Cloud Masking, Co-registration, Indices]
-    D[Foundation-Model Embedding Extraction: AlphaEarth / Tessera]
-    E[Parcel/Zone-Level Land-Use Classification and Change Detection]
-    F[Recorded vs Observed Land-Use Comparison]
-    G[Discrepancy Scoring: Consistency, Confidence, Sensitivity]
-    H[Explainability Layer: SHAP, Grad-CAM, Attention]
-    I[Risk-Based Verification Priority Ranking]
-    J[Database Storage]
-    K[GIS Dashboard: Human-in-the-Loop Review]
+    A[Multi-Source Data]
+    B[Sentinel-1/2]
+    C[Landsat]
+    D[Terrain]
+    E[Preprocessing]
+    F[Conventional Features: Spectral / Indices / DEM]
+    G[Foundation Embeddings: AlphaEarth / Tessera]
+    H[Land-Use Classification and Change Detection]
+    I[Model Comparison: Accuracy / Uncertainty / Transferability]
+    J[Parcel / Zone Analysis]
+    K[Recorded vs Observed Land-Use Status]
+    L[Discrepancy Model]
+    M[Explainability: SHAP / Grad-CAM / Attention]
+    N[Risk Model: Confidence + Sensitivity + Change]
+    O[Priority Ranking]
+    P[Human Verification]
+    Q[Confirm / Correct]
+    R[Reject / Modify]
+    S[Feedback Loop]
+    T[Model Improvement]
+    U[GIS Decision-Support Dashboard]
 
+    A --> B
     A --> C
-    B --> F
-    C --> D
+    A --> D
+    B --> E
+    C --> E
     D --> E
     E --> F
-    F --> G
+    E --> G
+    F --> H
     G --> H
     H --> I
     I --> J
     J --> K
+    K --> L
+    L --> M
+    L --> N
+    M --> O
+    N --> O
+    O --> P
+    P --> Q
+    P --> R
+    Q --> S
+    R --> S
+    S --> T
+    T --> U
 ```
-
----
 
 ## Data Sources Planned
 
