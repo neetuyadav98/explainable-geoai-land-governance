@@ -28,7 +28,6 @@ Current land-use monitoring faces several challenges:
 - Land-use changes can occur gradually and may be difficult to identify through single-date imagery.
 - Different types of land pressure such as urbanization, mining and vegetation loss require integrated monitoring.
 - Models trained in one geographic region may not generalize well to another region.
-- There is limited integration between Earth observation, cadastral information and explainable GeoAI for land-use verification.
 
 Therefore, there is a need for a parcel-level, multi-temporal and explainable GeoAI framework capable of connecting observed land-use changes with available land-record information.
 
