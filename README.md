@@ -59,7 +59,7 @@ The processed information is displayed on a GIS-enabled dashboard to assist reve
 
 1. To construct a multi-source, multi-temporal geospatial database for a defined Aravalli pilot region, integrating Sentinel-1/2, Landsat, terrain derivatives, and available cadastral/land-record data, with explicit documentation of coverage gaps and data-quality limitations across administrative boundaries.
 
-2. To develop and benchmark land-use classification and change-detection models — spanning classical machine learning (Random Forest, XGBoost) and deep learning (CNN, U-Net, transformer-based architectures) — evaluated at the spatial resolution the underlying data can actually support.
+2. To develop a foundation-embedding-based representation (using pretrained spatiotemporal embeddings such as AlphaEarth/Tessera) for land-use characterisation, and to benchmark this representation against classical machine learning (Random Forest, XGBoost) and deep learning baselines (CNN, U-Net, transformer-based architectures) for land-use classification and change detection, evaluated at the spatial resolution the underlying data can actually support.
 
 3. To develop explainable GeoAI methods (SHAP, Grad-CAM, attention-based and counterfactual techniques) that attribute each flagged land-use discrepancy to interpretable evidence, evaluated not only for technical fidelity but for usability by non-technical reviewing officials.
 
@@ -69,9 +69,6 @@ The processed information is displayed on a GIS-enabled dashboard to assist reve
 
 6. To design and pilot a human-in-the-loop verification workflow, defining how flags are reviewed, confirmed, corrected, or dismissed, and how reviewer feedback is captured to improve the system over time.
 
-**Secondary objective**, pursued subject to time and data availability:
-
-7. To investigate spatiotemporal geospatial embeddings (e.g., AlphaEarth, Tessera-derived representations) for parcel-level land characterisation, and to assess whether learned representations trained in one part of the Aravalli landscape transfer to sub-regions with differing terrain and data density.
 
 ---
 
@@ -79,8 +76,8 @@ The processed information is displayed on a GIS-enabled dashboard to assist reve
 
 The proposed research seeks to advance existing GeoAI-based land monitoring by integrating explainable change detection with parcel-level land-record verification, risk-based prioritisation, and human-in-the-loop validation within a unified framework. The novelty lies in developing an integrated, explainable and parcel-aware GeoAI framework for identifying and prioritising land-use discrepancies in heterogeneous Aravalli landscapes.
 
-**1. Parcel-aware land-use discrepancy assessment**
-The framework will link remotely sensed observations with available cadastral and land-record information to evaluate discrepancies between recorded land-use status and observed land-surface conditions at parcel or management-zone level, rather than treating land-use change solely as a pixel-level classification problem.
+**1.Foundation-embedding-based land characterisation **
+ Rather than relying solely on hand-engineered spectral indices or task-specific deep networks trained from scratch, the framework builds land-use representation on pretrained spatiotemporal geospatial embeddings (e.g., AlphaEarth, Tessera-derived), benchmarked against classical and deep-learning baselines to establish where embedding-based representation offers a genuine advantage for parcel-scale monitoring in a data-heterogeneous landscape like the Aravalli range.
 
 **2. Explainable GeoAI for evidence-based flagging**
 Rather than producing only change or classification labels, the framework will associate detected discrepancies with interpretable spatial, spectral, temporal, and contextual evidence.
@@ -94,8 +91,8 @@ Unlike frameworks that assume uniform, high-quality cadastral coverage, this res
 **5. Human-in-the-loop verification as a designed workflow, not an afterthought**
 The framework treats model output as the starting point for review, correction, and feedback by reviewing authorities, with an explicit workflow for confirming, dismissing, or appealing flags — positioning the system as decision-support rather than automated determination.
 
-**6. Exploratory transferability of learned representations (secondary)**
-Where data and time permit, the research will assess whether geospatial embeddings (e.g., AlphaEarth, Tessera-derived) trained in one part of the Aravalli landscape transfer to sub-regions with differing terrain and data density — investigated as a supporting question, not the framework's central claim.
+**6. Parcel-aware land-use discrepancy assessment**
+The framework will link remotely sensed observations with available cadastral and land-record information to evaluate discrepancies between recorded land-use status and observed land-surface conditions at parcel or management-zone level, rather than treating land-use change solely as a pixel-level classification problem.
 
 ---
 
