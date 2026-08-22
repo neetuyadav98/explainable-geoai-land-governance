@@ -76,7 +76,7 @@ The processed information is displayed on a GIS-enabled dashboard to assist reve
 
 The proposed research seeks to advance existing GeoAI-based land monitoring by integrating explainable change detection with parcel-level land-record verification, risk-based prioritisation, and human-in-the-loop validation within a unified framework. The novelty lies in developing an integrated, explainable and parcel-aware GeoAI framework for identifying and prioritising land-use discrepancies in heterogeneous Aravalli landscapes.
 
-**1. Foundation-embedding-based land characterisation **
+**1. Foundation-embedding-based land characterisation**
 Rather than relying solely on hand-engineered spectral indices or task-specific deep networks trained from scratch, the framework builds land-use representation on pretrained spatiotemporal geospatial embeddings (e.g., AlphaEarth, Tessera-derived), benchmarked against classical and deep-learning baselines to establish where embedding-based representation offers a genuine advantage for parcel-scale monitoring in a data-heterogeneous landscape like the Aravalli range.
 
 **2. Explainable GeoAI for evidence-based flagging**
