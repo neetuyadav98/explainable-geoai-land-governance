@@ -1,5 +1,5 @@
 # Explainable parcel-level discrepancy detection
-### Explainable GeoAI for Parcel-Level Land-Use Verification and Encroachment Screening — with the Aravalli Range as Case Study
+### Explainable GeoAI for Parcel-Level Land-Use Verification and Discrepancy Detection: Integrating Multi-Temporal Earth Observation and Cadastral Data in the Aravalli Range
 
 ---
 
