@@ -60,9 +60,9 @@ The processed information is displayed on a GIS-enabled dashboard to assist reve
 
 2. To develop a foundation-embedding-based representation (using pretrained spatiotemporal embeddings such as AlphaEarth/Tessera) for land-use characterisation, and to benchmark this representation against classical machine learning (Random Forest, XGBoost) and deep learning baselines (CNN, U-Net, transformer-based architectures) for land-use classification and change detection, evaluated at the spatial resolution the underlying data can actually support.
 
-3. To develop explainable GeoAI methods (SHAP, Grad-CAM, attention-based and counterfactual techniques) that attribute each flagged land-use discrepancy to interpretable evidence, evaluated not only for technical fidelity but for usability by non-technical reviewing officials.
+3. To integrate cadastral/land-record information with remotely sensed observations into a parcel- or zone-level verification workflow that compares recorded and observed land use and quantifies the discrepancy.
 
-4. To integrate cadastral/land-record information with remotely sensed observations into a parcel- or zone-level verification workflow that compares recorded and observed land use and quantifies the discrepancy.
+4. To develop explainable GeoAI methods (SHAP, Grad-CAM, attention-based and counterfactual techniques) that attribute each flagged land-use discrepancy to interpretable evidence, evaluated not only for technical fidelity but for usability by non-technical reviewing officials.
 
 5. To design a risk-prioritisation framework that ranks flagged parcels for human review, incorporating change confidence, environmental sensitivity, and land-use type, rather than presenting flags as undifferentiated output.
 
