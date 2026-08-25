@@ -45,7 +45,6 @@ Detected changes are combined with parcel boundaries, cadastral land-record stat
 
 - Land-Use Consistency Score (recorded use vs. observed use)
 - Change Confidence Score (model certainty in the detected transition)
-- Environmental Sensitivity Score (proximity to forest, protected, or ecologically fragile land)
 - Encroachment Risk Score (likelihood the change is inconsistent with permitted use)
 - Verification Priority Score (ranking for human review, weighted by risk and confidence)
 
