@@ -72,26 +72,19 @@ The processed information is displayed on a GIS-enabled dashboard to assist reve
 
 ## Novelty
 
-The proposed research seeks to advance existing GeoAI-based land monitoring by integrating explainable change detection with parcel-level land-record verification, risk-based prioritisation, and human-in-the-loop validation within a unified framework. The novelty lies in developing an integrated, explainable and parcel-aware GeoAI framework for identifying and prioritising land-use discrepancies in heterogeneous Aravalli landscapes.
+The proposed research advances existing GeoAI-based land monitoring by integrating parcel-aware discrepancy detection, explainable evidence generation, and risk-based human-in-the-loop verification within a single, deployment-realistic framework for the Aravalli range. The three points below constitute the core contribution; a fourth, exploratory direction is noted separately.
 
-**1. Foundation-embedding-based land characterisation**
-Rather than relying solely on hand-engineered spectral indices or task-specific deep networks trained from scratch, the framework builds land-use representation on pretrained spatiotemporal geospatial embeddings (e.g., AlphaEarth, Tessera-derived), benchmarked against classical and deep-learning baselines to establish where embedding-based representation offers a genuine advantage for parcel-scale monitoring in a data-heterogeneous landscape like the Aravalli range.
+1. Parcel-aware, explainable discrepancy detection.
+Rather than treating land-use change as a pixel-level classification problem, the framework links remotely sensed observations with available cadastral and land-record information to evaluate discrepancies between recorded land-use status and observed land-surface conditions at parcel or management-zone level. Each detected discrepancy is paired with interpretable spatial, spectral, temporal, and contextual evidence — rather than a bare change/classification label — so that what is flagged and why it was flagged are produced together, not as separate outputs.
 
-**2. Explainable GeoAI for evidence-based flagging**
-Rather than producing only change or classification labels, the framework will associate detected discrepancies with interpretable spatial, spectral, temporal, and contextual evidence.
+2. Risk-based prioritisation over undifferentiated detection.
+Detected discrepancies are ranked using a composite of change confidence, environmental sensitivity, and land-use consistency, directing limited verification capacity toward the highest-risk parcels first — rather than presenting all detected changes as equally actionable. This is designed and evaluated as a decision-support layer, not merely a detection output, with feasibility explicitly bounded by the coverage gaps and resolution constraints that exist across the Aravalli Range's multiple administrative jurisdictions, so that outputs remain honestly scoped rather than overstated.
 
-**3. Risk-based prioritisation over undifferentiated detection**
-Detected discrepancies will be ranked using a composite of change confidence, environmental sensitivity, and land-use type, directing limited verification capacity toward the highest-risk parcels first — rather than presenting all detected changes as equally actionable.
+3. Human-in-the-loop verification as a designed workflow, not an afterthought.
+The framework treats model output as the starting point for review, correction, and feedback by reviewing authorities, with an explicit workflow for confirming, dismissing, or appealing flags — positioning the system as decision-support for enforcement rather than automated determination.
 
-**4. Feasibility-grounded integration across heterogeneous data conditions**
-Unlike frameworks that assume uniform, high-quality cadastral coverage, this research explicitly documents and works within the coverage gaps and resolution constraints that exist across the Aravalli Range's multiple administrative jurisdictions, making the framework's outputs honestly bounded rather than overstated.
-
-**5. Human-in-the-loop verification as a designed workflow, not an afterthought**
-The framework treats model output as the starting point for review, correction, and feedback by reviewing authorities, with an explicit workflow for confirming, dismissing, or appealing flags — positioning the system as decision-support rather than automated determination.
-
-**6. Parcel-aware land-use discrepancy assessment**
-The framework will link remotely sensed observations with available cadastral and land-record information to evaluate discrepancies between recorded land-use status and observed land-surface conditions at parcel or management-zone level, rather than treating land-use change solely as a pixel-level classification problem.
-
+4. (Exploratory) Foundation-embedding-based land characterisation.
+Depending on data and compute feasibility confirmed during Phase 1–3, the framework may build land-use representation on pretrained spatiotemporal geospatial embeddings (e.g., AlphaEarth, TESSERA-derived) benchmarked against classical and deep-learning baselines, to establish where embedding-based representation offers a genuine advantage for parcel-scale monitoring in a data-heterogeneous landscape like the Aravalli range. This direction is under evaluation and not treated as load-bearing for the thesis's core contribution — the framework in points 1–3 stands independently of whether embeddings are ultimately integrated.
 ---
 
 ## Proposed Workflow
