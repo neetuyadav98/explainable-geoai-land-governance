@@ -36,14 +36,14 @@ This research proposes an Explainable GeoAI framework capable of automatically c
 ---
 ## Research Questions
 
-| Sr no. | Research Question 
-|---|---|---|
-| RQ1 | How accurately can multi-temporal Earth observation data characterize land use at the cadastral parcel level?  
-| RQ2 | How effectively can discrepancies between recorded and observed land use be automatically identified using GeoAI? 
-| RQ3 | Does incorporating temporal information improve parcel-level discrepancy detection compared with single-date classification?
-| RQ4 | Which spectral, temporal, spatial and contextual variables most strongly influence discrepancy predictions? 
-| RQ5 | Can explainable GeoAI provide reliable evidence for prioritizing parcels for field verification? 
-| RQ6 *(exploratory)* | Can Earth-observation embeddings improve the robustness and transferability of parcel-level discrepancy detection? | Phase 3 (transferability sub-study, conditional on embedding integration) |
+| # | Research Question |
+|---|---|
+| RQ1 | How accurately can multi-temporal Earth observation data characterize land use at the cadastral parcel level? |
+| RQ2 | How effectively can discrepancies between recorded and observed land use be automatically identified using GeoAI? |
+| RQ3 | Does incorporating temporal information improve parcel-level discrepancy detection compared with single-date classification? |
+| RQ4 | Which spectral, temporal, spatial and contextual variables most strongly influence discrepancy predictions? |
+| RQ5 | Can explainable GeoAI provide reliable evidence for prioritizing parcels for field verification? |
+| RQ6 *(exploratory)* | Can Earth-observation embeddings improve the robustness and transferability of parcel-level discrepancy detection? |
 
 
 ---
