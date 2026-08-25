@@ -56,17 +56,16 @@ The processed information is displayed on a GIS-enabled dashboard to assist reve
 
 ## Research Objectives
 
-1. To construct a multi-source, multi-temporal geospatial database for a defined Aravalli pilot region, integrating Sentinel-1/2, Landsat, terrain derivatives, and available cadastral/land-record data, with explicit documentation of coverage gaps and data-quality limitations across administrative boundaries.
+1. Develop an integrated parcel-level geospatial database linking cadastral/land record information with multi-temporal Earth observation data for the aravalli landscape.
 
-2. To develop a foundation-embedding-based representation (using pretrained spatiotemporal embeddings such as AlphaEarth/Tessera) for land-use characterisation, and to benchmark this representation against classical machine learning (Random Forest, XGBoost) and deep learning baselines (CNN, U-Net, transformer-based architectures) for land-use classification and change detection, evaluated at the spatial resolution the underlying data can actually support.
+2. Develop a multi-temporal GeoAI framework for estimating observed parcel-level land use/land cover and detecting land-use transitions.
+3. Develop a Parcel-Level Land-Use Discrepancy Index to quantify inconsistencies between recorded land use and EO-derived observed land use.
 
-3. To integrate cadastral/land-record information with remotely sensed observations into a parcel- or zone-level verification workflow that compares recorded and observed land use and quantifies the discrepancy.
+4. Develop explainable GeoAI approach to identify and quantify the spatial,spectral,temporal and contextual factors responsible for each parcel-level discrepancy prediction.
 
-4. To develop explainable GeoAI methods (SHAP, Grad-CAM, attention-based and counterfactual techniques) that attribute each flagged land-use discrepancy to interpretable evidence, evaluated not only for technical fidelity but for usability by non-technical reviewing officials.
+5. Develop and validate a decision-support framework for priortizing parcels requiring field verification for potential land-use violations or encroachment.
 
-5. To design a risk-prioritisation framework that ranks flagged parcels for human review, incorporating change confidence, environmental sensitivity, and land-use type, rather than presenting flags as undifferentiated output.
-
-6. To design and pilot a human-in-the-loop verification workflow, defining how flags are reviewed, confirmed, corrected, or dismissed, and how reviewer feedback is captured to improve the system over time.
+6. Develop and pilot a human-in-the-loop verification workflow, defining how flags are reviewed, confirmed, corrected, or dismissed, and how reviewer feedback is captured to improve the system over time.
 
 
 ---
