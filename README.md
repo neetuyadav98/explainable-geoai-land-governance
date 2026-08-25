@@ -36,7 +36,7 @@ This research proposes an Explainable GeoAI framework capable of automatically c
 ---
 ## Research Questions
 
-| Sr no. | Research Question | Addressed in |
+| Sr no. | Research Question 
 |---|---|---|
 | RQ1 | How accurately can multi-temporal Earth observation data characterize land use at the cadastral parcel level?  
 | RQ2 | How effectively can discrepancies between recorded and observed land use be automatically identified using GeoAI? 
