@@ -1,6 +1,5 @@
-# Explainable parcel-level discrepancy detection
-### Explainable GeoAI for Parcel-Level Land-Use Verification and Discrepancy Detection: Integrating Multi-Temporal Earth Observation and Cadastral Data in the Aravalli Range
-
+# Explainable GeoAI for Parcel-Level Land-Use Verification and Discrepancy Detection
+### Integrating Multi-Temporal Earth Observation and Cadastral Data in the Aravalli Range
 ---
 
 ## About the Research
