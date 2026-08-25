@@ -34,6 +34,19 @@ Therefore, there is a need for a parcel-level, multi-temporal and explainable Ge
 This research proposes an Explainable GeoAI framework capable of automatically comparing recorded land use against multi-temporal satellite observation at the parcel level, generating explained, risk-prioritized alerts for human-led verification — rather than a manual, landscape-wide search for inconsistencies.
 
 ---
+## Research Questions
+
+| # | Research Question | Addressed in |
+|---|---|---|
+| RQ1 | How accurately can multi-temporal Earth observation data characterize land use at the cadastral parcel level? | Phase 3 |
+| RQ2 | How effectively can discrepancies between recorded and observed land use be automatically identified using GeoAI? | Phase 3 – 5 |
+| RQ3 | Does incorporating temporal information improve parcel-level discrepancy detection compared with single-date classification? | Phase 3 (temporal ablation) |
+| RQ4 | Which spectral, temporal, spatial and contextual variables most strongly influence discrepancy predictions? | Phase 4 |
+| RQ5 | Can explainable GeoAI provide reliable evidence for prioritizing parcels for field verification? | Phase 4 – 5 |
+| RQ6 *(exploratory)* | Can Earth-observation embeddings improve the robustness and transferability of parcel-level discrepancy detection? | Phase 3 (transferability sub-study, conditional on embedding integration) |
+
+
+---
 
 ## Proposed Solution
 
