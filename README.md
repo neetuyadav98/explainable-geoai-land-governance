@@ -77,7 +77,6 @@ The processed information is displayed on a GIS-enabled dashboard to assist reve
 
 5. Develop and validate a decision-support framework for priortizing parcels requiring field verification for potential land-use violations or encroachment.
 
-6. Develop and pilot a human-in-the-loop verification workflow, defining how flags are reviewed, confirmed, corrected, or dismissed, and how reviewer feedback is captured to improve the system over time.
 
 
 ---
