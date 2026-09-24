@@ -33,6 +33,12 @@ Therefore, there is a need for a parcel-level, multi-temporal and explainable Ge
 This research proposes an Explainable GeoAI framework capable of automatically comparing recorded land use against multi-temporal satellite observation at the parcel level, generating explained, risk-prioritized alerts for human-led verification — rather than a manual, landscape-wide search for inconsistencies.
 
 ---
+
+## Research Gap
+Existing land-use monitoring approaches commonly address land-cover classification or change detection, while land governance requires a more integrated capability to determine whether observed changes are inconsistent with recorded parcel-level land use, understand the evidence underlying such predictions, and prioritize limited human verification resources.
+
+---
+
 ## Research Questions
 How can an explainable GeoAI framework integrating multi-temporal Earth observation and cadastral data reliably detect and explain parcel-level land-use discrepancies and prioritize parcels for human verification in the Aravalli Range?
 
