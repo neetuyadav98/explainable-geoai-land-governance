@@ -34,6 +34,7 @@ This research proposes an Explainable GeoAI framework capable of automatically c
 
 ---
 ## Research Questions
+How can an explainable GeoAI framework integrating multi-temporal Earth observation and cadastral data reliably detect and explain parcel-level land-use discrepancies and prioritize parcels for human verification in the Aravalli Range?
 
 | RQ | Research Question |
 |---|---|
